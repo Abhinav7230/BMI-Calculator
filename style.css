@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(woman-standing-scale.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 0 2px 5px rgba(2, 2, 2, 0.838);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.container {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.calculator {
+    background-color: rgba(136, 135, 135, 0.621);
+    width: 50vh;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    gap: 25px;
+}
+
+.input-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+}
+.output-wrap{
+    text-shadow: 0 2px 5px rgba(2, 2, 2, 0.838);
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+}
+.main{
+    width: 100%;
+
+}
+.input, input{
+    height: 40px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: none;
+    outline: none;
+}
+button{
+    height: 40px;
+    width: 70%;
+    font-size: 1.5em;
+    border-radius: 5px;
+    border: solid 1px black;
+    background-color: rgb(213, 75, 75);
+    color: white;
+}
+.output-wrap > div{
+    margin-top: 10px;
+}
+.divider {
+    height: 1px;          /* Thickness of the line */
+    background-color: #575353; /* Line color */
+    margin: 10px 0;        /* Spacing around the line */
+    width: 100%;           /* Full width */
+}

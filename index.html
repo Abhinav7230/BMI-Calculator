@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Calculate Your Body Mass Index Now!!!</h1>
+    </div>
+    <div class="main">
+        <div class="container">
+            <div class="calculator">
+                <!-- will work and add mode feature to have two mode metric and standard -->
+                <!-- <div class="mode">
+                    <span id="metric">Metric</span>
+                    <span id="standard">standard</span>
+                </div> -->
+                <div class="input-wrap">
+                    <input type="text" id="height" placeholder="Enter your height in cm" autocomplete="off">
+                    <input type="text" id="weight" placeholder="Enter your weight in kg" autocomplete="off">
+                    <button id="calc-bmi-btn">Compute BMI</button>
+                </div>
+                <div class="divider"></div>
+                <div class="output-wrap">
+                    <div>
+                        <p>Your BMI :</p>
+                    </div>
+                    <div>
+                        <span id="bmi"></span>
+                    </div>
+                    <div>
+                        <span id="categories"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
