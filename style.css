@@ -96,8 +96,8 @@ button{
     margin-top: 10px;
 }
 .divider {
-    height: 1px;          /* Thickness of the line */
-    background-color: #575353; /* Line color */
-    margin: 10px 0;        /* Spacing around the line */
-    width: 100%;           /* Full width */
+    height: 1px;
+    background-color: #575353; 
+    margin: 10px 0;
+    width: 100%;
 }
